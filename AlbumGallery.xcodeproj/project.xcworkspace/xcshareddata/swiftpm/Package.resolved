@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "customview_library",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sreynin/CustomView_Library.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5bcae9532e8d5483c17f09b66dda780143e80c8e"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "6e844d19679c9e0833ccc363d7f5a7c5f0c5f5d7",
+        "version" : "5.18.1"
+      }
+    }
+  ],
+  "version" : 2
+}
