@@ -1,24 +1,9 @@
-# Mac OS X
-*.DS_Store
-
-# Xcode
-*.pbxuser
-*.mode1v3
-*.mode2v3
-*.perspectivev3
-*.xcuserstate
-project.xcworkspace/
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
 xcuserdata/
-
-# Generated files
-*.o
-*.pyc
-
-
-#Python modules
-MANIFEST
-dist/
-build/
-
-# Backup files
-*~.nib
+DerivedData/
+.swiftpm/config/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
