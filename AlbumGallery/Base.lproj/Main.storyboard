@@ -13,7 +13,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AlbumGallery" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -21,11 +21,8 @@
                                 <rect key="frame" x="10" y="259" width="373" height="128"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhP-4W-XPn">
-                                        <rect key="frame" x="136.66666666666666" y="47" width="100" height="34"/>
+                                        <rect key="frame" x="154" y="47" width="65" height="34"/>
                                         <color key="backgroundColor" name="AccentColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="mSr-qV-42r"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="CilckMe"/>
@@ -66,10 +63,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="n6C-nf-7E3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="5T2-nM-q2h"/>
-                            <constraint firstItem="n6C-nf-7E3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="Iov-Cn-3AS"/>
+                            <constraint firstItem="EVh-VJ-3zt" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7c4-yo-kSJ"/>
                             <constraint firstItem="EVh-VJ-3zt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="PvL-ex-HgZ"/>
                             <constraint firstItem="n6C-nf-7E3" firstAttribute="top" secondItem="EVh-VJ-3zt" secondAttribute="bottom" constant="20" id="XKP-lv-MKh"/>
-                            <constraint firstItem="n6C-nf-7E3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="b1b-aW-ubF"/>
                             <constraint firstAttribute="trailing" secondItem="EVh-VJ-3zt" secondAttribute="trailing" constant="10" id="ftB-YH-ZMN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n6C-nf-7E3" secondAttribute="trailing" constant="10" id="kta-3K-AWc"/>
                             <constraint firstItem="EVh-VJ-3zt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="99" id="wUi-zc-FLN"/>
