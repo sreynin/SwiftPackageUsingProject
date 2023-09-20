@@ -28,11 +28,12 @@ class ViewController: UIViewController {
     
     //MARK: - IBAction -
     @IBAction func clickMeAction(_ sender: UIButton) {
-        customview_library.showAlert(title: "Hello", message: "Do you want to learn Swift package manager?", completion: {
-            let profileVC = CustomView_Library.createViewController()
-            self.navigationController?.pushViewController(profileVC, animated: true)
-        })
-        
+        sender.defaultNativeFeelingAnimation(scaleMeasurement: 0.8){_ in
+            self.customview_library.showAlert(title: "Hello", message: "Do you want to learn Swift package manager?", completion: {
+              let profileVC = CustomView_Library.createProfileViewController()
+              self.navigationController?.pushViewController(profileVC, animated: true)
+          })
+        }
     }
 }
 //MARK: - Custom function  -
