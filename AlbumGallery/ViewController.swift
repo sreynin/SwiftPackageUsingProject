@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var clickMeBtn: UIButton!
     @IBOutlet weak var myView: customView!
     let customview_library = CustomView_Library()
-    
     //MARK: - View lifeCycle -
     override func viewDidLoad() {
         super.viewDidLoad()
